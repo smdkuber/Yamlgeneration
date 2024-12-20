@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE_URL =
-  "http://localhost:8000";
+  "https://kong-74c4ca1d09usuclcr.kongcloud.dev";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
